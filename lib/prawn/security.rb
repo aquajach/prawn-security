@@ -8,7 +8,7 @@
 
 require 'digest/md5'
 require 'prawn/arcfour'
-require 'prawn/byte_string'
+require 'pdf/core/byte_string'
 
 module Prawn
   class Document
